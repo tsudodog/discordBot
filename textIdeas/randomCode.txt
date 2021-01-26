@@ -1,0 +1,28 @@
+# Tsudo\s Dog House  -- 378378188436406273
+
+# Channel - Maws  378378188436406277
+# Channel - Paws  382756959746523147
+
+TSUDO_ID = 193730641810948096
+XERXES_ID = 140381434744537088
+
+
+    # async for guild in client.fetch_guilds(limit=150):
+    #     print(guild.name)
+    #     print(guild.id)
+    #
+
+    # tsudos_dog_house = await client.fetch_guild(guild_id=378378188436406273)
+
+    # yeeted_bitches= await tsudos_dog_house.estimate_pruned_members(days=30)
+    # invites = await tsudos_dog_house.invites()
+
+    # tsudoUser = await client.fetch_user(TSUDO_ID)
+    # tsudo = await tsudos_dog_house.fetch_member(member_id=TSUDO_ID)
+    # tsudo_profile = await client.fetch_user_profile(user_id=TSUDO_ID)
+    # tdh_members = await tsudos_dog_house.fetch_members().flatten()
+    # # xerxes = await client.fetch_user(user_id=140381434744537088)
+    # tdh_channels = await tsudos_dog_house.fetch_channels()
+    # channel_hypno = await client.fetch_channel(channel_id=399443709583818777)
+    # tdh_c_paws = await client.fetch_channel(channel_id=382756959746523147)
+    # await xerxes.move_to(channel=channel_hypno)
