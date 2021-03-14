@@ -1,6 +1,17 @@
 import discord
 from discord.ext import commands
+from quart import Quart, websocket
+
 import os
+
+app = Quart(__name__)
+
+
+@app.route("/")
+async def hello():
+    await client.get_channel(799135266136129566).send('You are a good boy! Tsudo-kun')
+    return {"message": "sent"}
+
 
 intents = discord.Intents.default()
 intents.members = True
@@ -40,5 +51,5 @@ for filename in os.listdir('./bot/cogs'):
 #     await ctx.send(f"You are {ctx.message.author.name}")
 #
 
-
+client.loop.create_task(app.run_task('0.0.0.0', 5000))
 client.run(token)
